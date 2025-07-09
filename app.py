@@ -4,6 +4,7 @@ import streamlit as st
 import os
 from rag_engine import RAGEngine
 import time
+# app.py - Interface Streamlit pour votre RAG
 
 # Configuration de la page
 st.set_page_config(

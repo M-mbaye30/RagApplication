@@ -7,7 +7,7 @@ import PyPDF2
 from sentence_transformers import SentenceTransformer
 import requests
 import json
-
+# Moteur RAG (Retrieval-Augmented Generation) pour documents officiels du Sénégal
 
 class RAGEngine:
     def __init__(self, model_name="llama3.2:3b"):
